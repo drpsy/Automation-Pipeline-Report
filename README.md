@@ -12,10 +12,10 @@
    - sử dụng package **email.mime**
    tự động gửi email chứa thông tin đơn hàng, khách hàng hoặc lịch sử mua hàng cho các nhân viên với dữ liệu từ API.
 
-3. **database_dump**:
+3. **database_dump.py**:
    - Hàm này xử lý quá trình sao lưu dữ liệu thu được từ file excel vào cơ sở dữ liệu.
 
-4. **gmail_attach**:
+4. **gmail_attach.py**:
    - Lấy các tệp đính kèm được gửi trong email
 
 ### Thực thi
