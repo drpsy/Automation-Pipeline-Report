@@ -1,3 +1,9 @@
+"""
+đọc dữ liệu từ file Excel và lưu trữ vào cơ sở dữ liệu PostgreSQL sau khi qua tiền xử lý
+Qua đó biết được thông tin chi tiết về các mặt hàng còn tồn tại trong kho
+"""
+
+
 import pandas as pd
 import os 
 from sqlalchemy import create_engine
